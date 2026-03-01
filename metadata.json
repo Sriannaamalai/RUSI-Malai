@@ -1,0 +1,5 @@
+{
+  "name": "RUSI MALAI",
+  "description": "A personal food logging and discovery app to track your culinary adventures.",
+  "requestFramePermissions": ["geolocation"]
+}

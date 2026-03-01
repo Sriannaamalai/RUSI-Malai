@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ee5b2b;
+  --color-background-light: #fdfdfd;
+  --color-background-dark: #120c0a;
+  --color-surface-dark: #1e1614;
+  --color-border-dark: #2d2421;
+  
+  --font-display: "Plus Jakarta Sans", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-display bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-200 antialiased;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Custom range input styling */
+input[type="range"] {
+  @apply appearance-none bg-transparent cursor-pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  @apply bg-border-dark h-2 rounded-full;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  @apply appearance-none mt-[-4px] bg-primary h-4 w-4 rounded-full;
+}
