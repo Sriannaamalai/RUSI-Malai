@@ -1,17 +1,49 @@
+🍛 Rusi Malai – Personal Food History App
 
-# Run and deploy your AI Studio app
+Rusi Malai (ருசிமாலை) is a simple personal food history web app built with React + TypeScript (Vite) that helps you track dishes you've eaten and the hotels you've visited.
+It acts as a digital food memory journal where you can log taste experiences, rate hotels, and revisit your favorite dishes anytime.
 
-This contains everything you need to run your app locally.
+✨ Features
 
-View your app in AI Studio: https://ai.studio/apps/74139bf6-a511-4170-9ce5-cdc48fa58f3e
+🍽️ Add dishes you’ve eaten
 
-## Run Locally
+⭐ Rate dishes:
 
-**Prerequisites:**  Node.js
+Taste (/10)
+Spicy (/10)
+Freshness (/10)
+Price
 
+🏨 Rate hotels:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Serving Quality (/10)
+Cost Effectiveness (/10)
+Ambience (/10)
+
+📍 Save hotel location using current GPS
+
+🔎 Search by dish name to see previously visited hotels
+
+📜 View food history entries
+
+📱 Mobile-friendly UI
+
+🛠 Tech Stack
+
+React
+TypeScript
+Vite
+CSS
+(Optional backend if server.ts is used)
+
+🎯 Purpose
+
+This app is designed for personal use to track and remember your food experiences — a simple, clean, and minimal food memory tracker.
+
+🚀 Future Improvements (Optional Ideas)
+
+PWA support (Install as mobile app)
+Map view of visited hotels
+Dish comparison analytics
+Offline storage
+Export food history data
